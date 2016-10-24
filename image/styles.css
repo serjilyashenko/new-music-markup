@@ -1,0 +1,295 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px Arial, Tahoma, sans-serif;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+input, select, textarea, button {
+    font: 12px Arial, Tahoma, sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    width: 100%;
+    display: table;
+}
+
+.top-panel {
+    position: fixed;
+    background: #000;
+    height: 40px;
+    width: 100%;
+    z-index: 7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.top-panel__left-column {
+    float: left;
+}
+
+.top-panel__wrapper {
+    min-width: 1240px;
+}
+
+.top-panel__content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top-panel-menu__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-panel-menu {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.top-panel-menu__item {
+    float: left;
+}
+
+.top-panel-menu__item:hover .top-panel-menu__link {
+    text-decoration: underline;
+}
+
+.top-panel-menu__link {
+    padding-right: 15px;
+}
+
+.top-panel__right-column {
+    float: right;
+}
+
+.top-search {
+    margin-top: 7px;
+}
+
+.top-search__field {
+    border-radius: 3px;
+}
+
+.top-search__button {
+    background: #7f5;
+    border-radius: 3px;
+}
+
+.page-body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-body__wrapper {
+    padding-bottom: 200px;
+    min-width: 1240px;
+    min-height: 100vh;
+    box-sizing: border-box
+}
+
+.header__logo {
+    margin-top: 63px;
+}
+
+.page-grid {
+
+}
+
+.page-grid__left-column {
+    float: left;
+    width: 250px;
+}
+
+.page-grid__right-column {
+    float: right;
+    width: 250px;
+}
+
+.page-grid__center-column {
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+.navigation-menu {
+    margin: 0;
+    background: #eee;
+    padding: 0;
+    z-index: 5;
+    position: relative;
+}
+
+.navigation-menu__item {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+
+.navigation-menu__link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+}
+
+.sub-menu {
+    padding: 0;
+    background: #eee;
+}
+
+.sub-menu__wrapper {
+    padding-top: 1px;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    left: 0;
+}
+
+.sub-menu__item {
+    list-style-type: none;
+}
+
+.sub-menu__link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navigation-menu__item:hover {
+    background: #ddd;
+}
+
+.navigation-menu__item:hover .sub-menu__wrapper {
+    display: block;
+}
+
+.sub-menu__item:hover {
+    background: #ddd;
+}
+
+.equipment-menu {
+    padding: 0;
+    margin: 0 0 45px 0;
+    z-index: 6;
+    position: relative;
+}
+
+.equipment-menu__item {
+    list-style-type: none;
+    border-top: 1px solid #eee;
+    position: relative;
+}
+
+.equipment-menu__item:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.equipment-menu__link {
+    text-decoration: none;
+    padding: 5px 0;
+    padding-left: 17px;
+    color: #000;
+    display: block;
+}
+
+.equipment-menu__link:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #f80;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.equipment-sub-menu {
+    padding: 5px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+}
+
+.equipment-sub-menu__wrapper {
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: 95%;
+    z-index: 4;
+}
+
+.equipment-sub-menu__item {
+    list-style-type: none;
+}
+
+.equipment-sub-menu__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.equipment-menu__link:hover {
+    background: #fafafa;
+}
+
+.equipment-menu__item:hover .equipment-sub-menu__wrapper {
+    display: block;
+}
+
+.equipment-sub-menu__item:hover .equipment-sub-menu__link {
+    color: #f80;
+}
+
+.news {
+    padding-bottom: 45px;
+}
+
+.news__item {
+    margin-bottom: 30px;
+}
+
+.news__title {
+    margin-bottom: 10px;
+}
+
+.news__link {
+    color: #f80;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.page-content__image {
+    max-width: 100%;
+}
+
+.footer__wrapper {
+    min-width: 1240px;
+    margin-top: -100px;
+}
+
+.footer {
+    background: #ddd;
+    height: 100px;
+    z-index: 7;
+}
+
+.footer__content {
+    width: 1200px;
+    margin: 0 auto;
+}
+

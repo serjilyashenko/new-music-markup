@@ -1,0 +1,29 @@
+.equipment-sub-menu {
+    padding: 5px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+
+    &__wrapper {
+        display: none;
+        position: absolute;
+        top: -5px;
+        left: 95%;
+        z-index: 4;
+    }
+
+    &__item {
+        list-style-type: none;
+        margin-bottom: 4px;
+
+        &:hover .equipment-sub-menu__link {
+            color: @orange-color;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: @black-color;
+    }
+}

@@ -1,0 +1,28 @@
+.navigation-menu {
+    margin: 0;
+    background: #eee;
+    padding: 0;
+    z-index: 5;
+    position: relative;
+
+    &__item {
+        list-style-type: none;
+        float: left;
+        position: relative;
+
+        &:hover {
+            background: #ddd;
+
+            & .navigation-sub-menu__wrapper {
+                display: block;
+            }
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: @black-color;
+        padding: 10px 15px;
+        display: block;
+    }
+}
